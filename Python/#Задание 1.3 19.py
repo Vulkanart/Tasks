@@ -1,0 +1,10 @@
+#Задание 1.3 19
+a=input('Прилагательное: ')
+b=input('Существительное: ')
+c=input('Глагол: ')
+print(a, b, c, sep=' ')
+print(a, c, b, sep=' ')
+print(b, a, c, sep=' ')
+print(b, c, a, sep=' ')
+print(c, a, b, sep=' ')
+print(c, b, a, sep=' ')

@@ -1,0 +1,13 @@
+#Задание 1.3 17
+print('Нахождение площади треугольника по координатам его вершин')
+print('Координаты точки А')
+xa=int(input('xa='))
+ya=int(input('ya='))
+print('Координаты точки B')
+xb=int(input('xb='))
+yb=int(input('yb='))
+print('Координаты точки C')
+xc=int(input('xc='))
+yc=int(input('yc='))
+S=abs(0.5*(xa*(yb-yc)+xb*(yc-ya)+xc*(ya-yb)))
+print('S =', S)
